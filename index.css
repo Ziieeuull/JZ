@@ -1,0 +1,86 @@
+body {
+    background-image: url('BCK1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.icon {
+    margin: 25px; /* Reduce the margin to make the distance between icons smaller */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Scale the icon to 1.1x size when hovered */
+}
+
+.icon img {
+    max-width: 160px; /* Adjust the size of the icons */
+    max-height: 160px;
+    display: block;
+    width: auto; /* Let the browser adjust the width automatically */
+    height: auto; /* Let the browser adjust the height automatically */
+}
+
+.icon-text {
+    margin-top: 25px; /* Increase the spacing between the icon and the text */
+    font-size: 25px; /* Adjust the font size of the text */
+    text-align: center; /* Align the text to the center */
+    text-rendering: pixelated; /* Apply pixelated rendering to the text */
+    font-family: 'Common Pixel', sans-serif;
+    color: white; /* Set the font color to white */
+}
+
+
+.icon-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background-image: url('BCK.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon-text {
+    text-rendering: pixelated; /* Apply pixelated rendering to the text */
+}       
+.icons {
+    margin: 28px; /* Reduce the margin to make the distance between icons smaller */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.heart-icon {
+    width: 100px; /* Adjust the width of the heart icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Add spacing between heart icons */
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.text-between-icons {
+    text-align: center; /* Align the text to the center */
+    text-rendering: pixelated; /* Apply pixelated rendering to the text */
+    font-family: 'Common Pixel', sans-serif;
+    margin-right: 10px; /* Add spacing between the text and the icons */
+    font-family: 'Common Pixel', sans-serif; /* Apply the Common Pixel font */
+    font-size: 50px; /* Adjust the font size */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 1px 1px 2px black; /* Add an outline effect */
+    color: rgb(242, 229, 43); /* Set the text color */
+}
+
+
