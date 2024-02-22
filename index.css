@@ -1,5 +1,5 @@
 body {
-    background-image: url('BCK1.jpg');
+    background-image: url('BCK.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -39,22 +39,6 @@ body {
     color: white; /* Set the font color to white */
 }
 
-
-.icon-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-body {
-    background-image: url('BCK.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.icon-text {
-    text-rendering: pixelated; /* Apply pixelated rendering to the text */
-}       
 .icons {
     margin: 28px; /* Reduce the margin to make the distance between icons smaller */
     cursor: pointer;
@@ -76,11 +60,8 @@ body {
     text-rendering: pixelated; /* Apply pixelated rendering to the text */
     font-family: 'Common Pixel', sans-serif;
     margin-right: 10px; /* Add spacing between the text and the icons */
-    font-family: 'Common Pixel', sans-serif; /* Apply the Common Pixel font */
     font-size: 50px; /* Adjust the font size */
     font-weight: bold; /* Make the text bold */
     text-shadow: 1px 1px 2px black; /* Add an outline effect */
     color: rgb(242, 229, 43); /* Set the text color */
 }
-
-
