@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: pixelated; /* Apply pixelated rendering to the text */
+    font-family: 'Tea For God', sans-serif;
+                                                
+                                                
+}
+
+.container {
+    background-image: url('INDEXBCK.png'); /* Replace 'background.jpg' with your background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Make the container full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.note {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white background for the note */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.note h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.note p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.container {
+    position: relative; /* Ensure relative positioning for absolute positioning of child elements */
+    height: 100vh; /* Set container height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.note {
+    background-color: rgba(254, 248, 248, 0.636);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styles for the "Go Back" button */
+.goback-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure it's above other content */
+    animation: popInOut 2s infinite alternate; /* Apply animation */
+}
+
+.goback-icon {
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+}
+
+/* Animation keyframes */
+@keyframes popInOut {
+    50% { transform: translateX(-50%) scale(1.2); } /* Pop out at halfway point */
+    100% { transform: translateX(-50%) scale(1); } /* Return to normal size */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Page with Note</title>
+    <link rel="stylesheet" href="task.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.cdnfonts.com/css/tea-for-god" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/tea-for-god');
+
+        /* Additional styling can be added here */
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="icon-content">
+              <img src="LOVE.png" alt="Camera Icon">
+          </div>
+        <div class="note">
+            <h1>Hello Sayangku!!</h1>
+            <p><strong>Objective:</strong><br>
+                Complete the series of challenges to advance to the next level.</p>
+            <p><strong>Instructions:</strong></p>
+            <ul> 
+                <li><strong>Math Quiz Mastery:</strong> Answer all the math quiz questions correctly to score full points and unlock the final challenge. The math quiz will cover various topics including addition, subtraction, multiplication, division, and more.</li>
+                <li><strong>Tic Tac Toe Showdown:</strong> Play and win a game of Tic Tac Toe against the computer. You will be 'X' and the computer will be 'O'. Achieve three in a row, column, or diagonal to win.</li>
+                <li><strong>Passcode Puzzle:</strong> Solve the passcode puzzle by arranging the given sequence of letters and numbers in the correct order. The passcode will unlock the next stage.</li>
+            </ul>
+            <p><strong>TIPS:</strong><br>
+                You need to do the passcode puzzle lastly, otherwise you cannot enter next level</p>
+            <h1>Do Your Best Sayangku!!</h1>
+    
+            
+        </div>
+        <div class="icon-content">
+            <img src="LOVE.png" alt="Camera Icon">
+        </div>
+        <div class="goback-container">
+            <img class="goback-icon" src="ARR.png" alt="Go Back" onclick="goBack()">
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back(); // Go back to the previous page
+        }
+    </script>
+</body>
+</html>
